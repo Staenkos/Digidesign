@@ -29,22 +29,53 @@
 
 | Nom | Hex | Usage |
 |-----|-----|-------|
-| Navy Digiforma | `#1F1246` | Texte principal, fond sombre |
-| Violet Digiforma | `#7B35BF` | Accents, CTA, le "o" du logo |
-| Blanc | `#FFFFFF` | Fond clair, texte sur fond sombre |
+| Violet Digiforma | `#864dff` | Couleur signature, logo, CTA, éléments forts |
+| Navy Digiforma | `#1f0942` | Texte principal, fond sombre, typographie |
+| Blanc cassé | `#faf6ff` | Fond clair, respiration, backgrounds |
 
 ### Couleurs secondaires
 
 | Nom | Hex | Usage |
 |-----|-----|-------|
-| Violet clair | `#C4A8E8` | Backgrounds doux, dégradés |
-| Violet pastel | `#EDE3F8` | Fonds de cartes, encadrés |
-| Gris neutre | `#F5F5F7` | Backgrounds neutres |
+| Blanc pur | `#ffffff` | Fonds neutres, texte sur fond sombre |
+| Violet medium | `#b08bff` | Dégradés, éléments secondaires, hover |
+| Violet foncé | `#30096e` | Variations sombres, profondeur |
+| Lilas très clair | `#eee0ff` | Backgrounds doux, encadrés légers |
+
+### Dégradés officiels
+
+| Nom | De → Vers | Usage |
+|-----|-----------|-------|
+| Gradient principal | `#864dff` → `#e3c6ff` | Fonds hero, bannières |
+| Gradient medium | `#864dff` → `#b08bff` | Éléments intermédiaires |
+| Gradient doux | `#d2bdff` → `#eee1ff` | Fonds subtils, cartes |
+
+### Couleurs d'accent (CTA, alertes)
+
+| Nom | Hex | Usage |
+|-----|-----|-------|
+| Orange / Jaune | `#ffb017` | CTA principal, boutons d'action |
+| Corail / Rouge | `#fe695d` | Alertes, urgence, mise en avant forte |
+
+### Couleurs variations (usage ponctuel)
+
+Ces couleurs peuvent accompagner les visuels de façon secondaire, jamais dominante.
+
+| Hex | Famille |
+|-----|---------|
+| `#80dec7` · `#b4eadd` · `#edfaf7` · `#00bc8f` | Vert menthe |
+| `#57e1e9` · `#c5eff2` · `#d8f1f3` · `#f3fcfd` | Turquoise |
+| `#ffb4ae` · `#ffdedb` · `#fff7f7` | Rose pêche |
+| `#ffd88b` · `#fffcf7` | Jaune doux |
+| `#a558e0` | Violet alternatif |
 
 ### Règles d'utilisation des couleurs
-- Le violet `#7B35BF` est la couleur signature — toujours présente dans les visuels
-- Ne jamais utiliser plus de 3 couleurs simultanément dans un visuel
-- Les dégradés admis : du navy vers le violet
+- `#864dff` est la couleur signature — toujours présente dans les visuels
+- `#1f0942` pour tout texte sur fond clair
+- Ne jamais utiliser plus de 3 couleurs simultanément dans un même visuel
+- Les dégradés se font toujours dans la famille violette (du foncé vers le clair)
+- Les accents `#ffb017` et `#fe695d` sont réservés aux CTA et points forts — jamais en fond dominant
+- Les couleurs variations sont des touches, jamais la base d'un visuel
 
 ---
 
@@ -131,7 +162,7 @@
 - Utiliser des couleurs hors palette sans validation
 - Mélanger plus de 2 polices dans un même visuel
 - Utiliser des photos de stock trop génériques ou "corporate"
-- Créer des visuels sans le violet signature `#7B35BF`
+- Créer des visuels sans le violet signature `#864dff`
 
 ---
 
