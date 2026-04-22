@@ -81,18 +81,26 @@ Ces couleurs peuvent accompagner les visuels de façon secondaire, jamais domina
 
 ## 4. Typographie
 
-### Titres
-- **Police** : À préciser depuis le Brand Kit Canva
-- **Graisse** : Bold / Extra Bold
-- **Casse** : Titre (première lettre en majuscule), jamais TOUT EN MAJUSCULES sauf exceptions
+**Police unique** : [Satoshi](https://www.fontshare.com/fonts/satoshi) — Deni Anggara / Indian Type Foundry  
+Fichiers : `assets/fonts/satoshi.css` · `assets/fonts/satoshi/`
 
-### Corps de texte
-- **Police** : À préciser depuis le Brand Kit Canva
-- **Graisse** : Regular / Medium
-- **Interlignage** : 1.5
+### Graisses disponibles
+
+| Graisse | CSS | Usage |
+|---------|-----|-------|
+| Light (300) | `Satoshi-Light` | Légendes, textes fins |
+| Regular (400) | `Satoshi-Regular` | Corps de texte |
+| Medium (500) | `Satoshi-Medium` | Sous-titres, mise en avant douce |
+| Bold (700) | `Satoshi-Bold` | Titres, CTA |
+| Black (900) | `Satoshi-Black` | Très grands titres, impact fort |
+
+Variable font disponible (`Satoshi-Variable`) — axe `wght` de 300 à 900.
 
 ### Règles typo
-- Hiérarchie claire : titre > sous-titre > corps > légende
+- Une seule police dans tous les visuels — Satoshi uniquement
+- Hiérarchie : Black/Bold pour titres → Medium pour sous-titres → Regular pour corps → Light pour légendes
+- Casse : première lettre en majuscule, jamais TOUT EN MAJUSCULES
+- Interlignage : 1.5 pour le corps, 1.1–1.2 pour les gros titres
 - Toujours respecter les contrastes WCAG AA minimum
 
 ---
