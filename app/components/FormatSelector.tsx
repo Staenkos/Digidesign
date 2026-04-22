@@ -31,10 +31,10 @@ export default function FormatSelector({ selected, onChange }: Props) {
           >
             <div className="flex h-12 w-full items-center justify-center">
               <div
-                className={`${RATIO_PREVIEWS[format.id]} max-h-10 max-w-10 rounded-sm ${
+                className={`${RATIO_PREVIEWS[format.id]} rounded-sm ${
                   isActive ? "bg-[#864dff]" : "bg-[#864dff]/20"
                 }`}
-                style={{ width: "auto", height: "auto", maxWidth: "40px", maxHeight: "40px" }}
+                style={{ height: "32px", width: "auto", minWidth: "4px", maxWidth: "48px" }}
               />
             </div>
             <div className="text-center">
