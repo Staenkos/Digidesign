@@ -26,13 +26,13 @@ export default function FormatSelector({ selected, onChange }: Props) {
             className={`flex flex-col items-center gap-2 rounded-xl border p-3 transition-all ${
               isActive
                 ? "border-[#864dff] bg-[#864dff]/10"
-                : "border-white/10 bg-white/5 hover:border-[#864dff]/50 hover:bg-white/10"
+                : "border-[#864dff]/20 bg-white/50 hover:border-[#864dff]/50 hover:bg-white/70"
             }`}
           >
             <div className="flex h-12 w-full items-center justify-center">
               <div
                 className={`${RATIO_PREVIEWS[format.id]} max-h-10 max-w-10 rounded-sm ${
-                  isActive ? "bg-[#864dff]" : "bg-white/20"
+                  isActive ? "bg-[#864dff]" : "bg-[#864dff]/20"
                 }`}
                 style={{ width: "auto", height: "auto", maxWidth: "40px", maxHeight: "40px" }}
               />
@@ -40,15 +40,15 @@ export default function FormatSelector({ selected, onChange }: Props) {
             <div className="text-center">
               <p
                 className={`text-xs font-bold tracking-wide ${
-                  isActive ? "text-[#864dff]" : "text-white/60"
+                  isActive ? "text-[#864dff]" : "text-[#1f0942]/50"
                 }`}
               >
                 {format.label}
               </p>
-              <p className={`text-[10px] ${isActive ? "text-white/80" : "text-white/30"}`}>
+              <p className={`text-[10px] ${isActive ? "text-[#1f0942]" : "text-[#1f0942]/40"}`}>
                 {format.ratio}
               </p>
-              <p className={`text-[10px] ${isActive ? "text-white/60" : "text-white/20"}`}>
+              <p className={`text-[10px] ${isActive ? "text-[#1f0942]/60" : "text-[#1f0942]/30"}`}>
                 {format.sublabel}
               </p>
             </div>

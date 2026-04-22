@@ -12,7 +12,8 @@
 }
 
 body {
-  background: var(--navy);
-  color: #ffffff;
+  background: linear-gradient(135deg, #faf6ff 0%, #eee0ff 55%, #c4a0ff 100%);
+  min-height: 100vh;
+  color: #1f0942;
   font-family: 'Satoshi-Regular', system-ui, sans-serif;
 }
