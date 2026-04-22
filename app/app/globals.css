@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --violet: #864dff;
+  --navy: #1f0942;
+  --white-soft: #faf6ff;
+  --violet-medium: #b08bff;
+  --violet-dark: #30096e;
+  --violet-light: #eee0ff;
+  --orange: #ffb017;
+  --coral: #fe695d;
+}
+
+body {
+  background: var(--navy);
+  color: #ffffff;
+  font-family: 'Satoshi-Regular', system-ui, sans-serif;
+}
