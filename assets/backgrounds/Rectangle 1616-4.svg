@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+<path d="M0 0L1920 0L1920 1080L0 1080L0 0Z" fill="url(#paint0_radial_2319_430)"/>
+<defs>
+<radialGradient id="paint0_radial_2319_430" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960) rotate(90) scale(1080 1920)">
+<stop stop-color="#DABBFF"/>
+<stop offset="1" stop-color="#8952FF"/>
+</radialGradient>
+</defs>
+</svg>

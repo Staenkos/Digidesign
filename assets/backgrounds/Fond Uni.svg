@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+<g clip-path="url(#clip0_826_50416)">
+<mask id="mask0_826_50416" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1080">
+<path d="M1860 0H60C26.8629 0 0 26.8629 0 60V1020C0 1053.14 26.8629 1080 60 1080H1860C1893.14 1080 1920 1053.14 1920 1020V60C1920 26.8629 1893.14 0 1860 0Z" fill="url(#paint0_linear_826_50416)"/>
+</mask>
+<g mask="url(#mask0_826_50416)">
+<path d="M1920 0H0V1080H1920V0Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_826_50416" x1="960" y1="0" x2="960" y2="1080" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#FAF6FF"/>
+</linearGradient>
+<clipPath id="clip0_826_50416">
+<rect width="1920" height="1080" fill="white"/>
+</clipPath>
+</defs>
+</svg>

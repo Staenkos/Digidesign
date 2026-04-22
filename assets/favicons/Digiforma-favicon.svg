@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+<path d="M213.514 318.416C178.683 318.416 150.442 290.175 150.442 255.343C150.442 220.512 178.683 192.271 213.514 192.271V123.039C140.432 123.039 81.21 182.284 81.21 255.343C81.21 328.403 140.432 387.648 213.514 387.648V318.416Z" fill="#1F0942"/>
+<path d="M215.417 3.53015V72.7624C316.672 72.7624 398.745 154.835 398.745 256.091C398.745 357.346 316.672 439.419 215.417 439.419V508.651C354.9 508.651 468 395.574 468 256.068C468 116.562 354.9 3.53015 215.417 3.53015Z" fill="url(#paint0_linear_1140_74958)"/>
+<defs>
+<linearGradient id="paint0_linear_1140_74958" x1="341.708" y1="3.53015" x2="341.708" y2="508.651" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C099FF"/>
+<stop offset="1" stop-color="#9D6CFF"/>
+</linearGradient>
+</defs>
+</svg>

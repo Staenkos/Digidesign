@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="565" height="320" viewBox="0 0 565 320" fill="none">
+<rect y="1" width="565" height="318" rx="12" fill="url(#paint0_linear_2795_49596)"/>
+<mask id="mask0_2795_49596" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="1" width="565" height="318">
+<rect y="1" width="565" height="318" rx="12" fill="url(#paint1_linear_2795_49596)"/>
+</mask>
+<g mask="url(#mask0_2795_49596)">
+<g filter="url(#filter0_f_2795_49596)">
+<circle cx="146" cy="202" r="202" fill="#874FFF"/>
+</g>
+<g opacity="0.3">
+<ellipse cx="6.48333" cy="6.47191" rx="6.48333" ry="6.47191" transform="matrix(-1 0 0 1 31.1455 104)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="6.48333" cy="6.47191" rx="6.48333" ry="6.47191" transform="matrix(-1 0 0 1 31.1455 214.021)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="6.48333" cy="6.47191" rx="6.48333" ry="6.47191" transform="matrix(-1 0 0 1 31.1455 159.011)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="6.48333" cy="6.47192" rx="6.48333" ry="6.47192" transform="matrix(-1 0 0 1 31.1455 269.035)" fill="#E3C6FF" fill-opacity="0.5"/>
+<path d="M24.6622 282.479C20.8062 282.479 17.6789 279.358 17.6789 275.507C17.6789 271.656 20.8062 268.535 24.6622 268.535C28.5181 268.535 31.6455 271.656 31.6455 275.507C31.6455 279.358 28.5181 282.479 24.6622 282.479Z" stroke="#E3C6FF" stroke-opacity="0.5"/>
+<ellipse cx="3.24166" cy="3.23596" rx="3.24166" ry="3.23596" transform="matrix(-1 0 0 1 86.2578 107.235)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="6.48332" cy="6.47191" rx="6.48332" ry="6.47191" transform="matrix(-1 0 0 1 89.498 214.021)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="6.48332" cy="6.47191" rx="6.48332" ry="6.47191" transform="matrix(-1 0 0 1 89.498 159.011)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="6.48332" cy="6.47192" rx="6.48332" ry="6.47192" transform="matrix(-1 0 0 1 89.498 269.035)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="3.24167" cy="3.23596" rx="3.24167" ry="3.23596" transform="matrix(-1 0 0 1 140.297 271.124)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="3.24167" cy="3.23595" rx="3.24167" ry="3.23595" transform="matrix(-1 0 0 1 140.297 217.055)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="3.24167" cy="3.23595" rx="3.24167" ry="3.23595" transform="matrix(-1 0 0 1 192 217.055)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="3.24167" cy="3.23596" rx="3.24167" ry="3.23596" transform="matrix(-1 0 0 1 192 271.124)" fill="#E3C6FF" fill-opacity="0.5"/>
+<ellipse cx="3.24167" cy="3.23596" rx="3.24167" ry="3.23596" transform="matrix(-1 0 0 1 140.297 160.527)" fill="#E3C6FF" fill-opacity="0.5"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2795_49596" x="-156" y="-100" width="604" height="604" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_2795_49596"/>
+</filter>
+<linearGradient id="paint0_linear_2795_49596" x1="282.5" y1="1" x2="282.5" y2="319" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C099FF"/>
+<stop offset="1" stop-color="#9D6CFF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2795_49596" x1="282.5" y1="1" x2="282.5" y2="319" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C099FF"/>
+<stop offset="1" stop-color="#9D6CFF"/>
+</linearGradient>
+</defs>
+</svg>
