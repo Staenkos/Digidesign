@@ -128,7 +128,6 @@ export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [selectedFormatId, setSelectedFormatId] = useState<FormatId>("meta-feed");
   const [sourceImages, setSourceImages] = useState<File[]>([]);
-  const [inspirationImages, setInspirationImages] = useState<File[]>([]);
   const [imageUrls, setImageUrls] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -143,7 +142,6 @@ export default function Home() {
 
     try {
       const sourceBase64 = await Promise.all(sourceImages.map(fileToBase64));
-      const inspirationBase64 = await Promise.all(inspirationImages.map(fileToBase64));
 
       const res = await fetch("/api/generate", {
         method: "POST",
@@ -152,7 +150,6 @@ export default function Home() {
           prompt,
           format: selectedFormatId,
           sourceImages: sourceBase64,
-          inspirationImages: inspirationBase64,
         }),
       });
 
@@ -233,19 +230,6 @@ export default function Home() {
             <p className="text-right text-[10px] text-[#1f0942]/30">⌘ + Entrée pour générer</p>
           </div>
 
-          <div className="space-y-2">
-            <SectionLabel num={4} optional>
-              Déposer des inspirations
-            </SectionLabel>
-            <DropZone
-              label="Glissez-déposez vos inspirations ici"
-              sublabel="ou cliquez pour les sélectionner (jusqu'à 3, PNG/JPEG/JPG/SVG/WebP)"
-              files={inspirationImages}
-              onFiles={setInspirationImages}
-              maxFiles={3}
-              accept=".png,.jpg,.jpeg,.svg,.webp"
-            />
-          </div>
 
           <button
             onClick={handleGenerate}
